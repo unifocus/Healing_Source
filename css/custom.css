@@ -1,0 +1,65 @@
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 26px;
+    padding-right: 18px;
+    margin-right: 10px;
+    border-right: 1px solid;
+}
+
+.bannerimg {
+    float: right;
+    max-width: 573px;
+    width: 100%;
+}
+h1.mainhead {
+    position: absolute;
+    width: 340px;
+    top: 80px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #3f3a3a;
+}
+h1.mainhead span, .Cityrap span {
+    font-weight: 700;
+    color: #739b1e;
+}
+
+#callbackForm{padding: 30px;
+background-color:#739b1e;}
+#callbackForm h2{margin-bottom: 30px;}
+#menu{border-bottom: 1px solid grey;padding-top: 20px;padding-bottom: 20px;}
+.navbar-brand{width: 45%;padding: 15px 0px;}
+#formtext{margin-top: 15px;}
+#yChoose h2{text-align: center;}
+#yChoose .col-sm-4{margin-top: 35px;border-bottom: 1px solid grey;border-right: 1px solid grey;}
+#yChoose{background-color: #d3f7b9;}
+.icon{width: 100px;height: 100px;float: left;}
+.icon{border-radius: 50%;background-color: #fff;border: 4px solid #739b1e;text-align: center;} 
+.icon .fa{font-size: 48px;color:#739b1e;position: relative;bottom: -18px;right: -4px; }
+.carousel-content {
+    color:black;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+.carousel-indicators li{background-color: #739b1e;border: 1px solid #000;border-radius: 0;}
+#success h2{text-align: center;margin-bottom: 45px;}
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+#exTab1 .tab-content {
+    color: white;
+    background-color: #81d742;
+    padding: 2px 2px;
+}
