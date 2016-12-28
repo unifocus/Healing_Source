@@ -1,65 +1,84 @@
-.navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 26px;
-    padding-right: 18px;
-    margin-right: 10px;
-    border-right: 1px solid;
+.navbar-nav{float: right;}
+.home div img{float: right;}
+.home h3{color: #5b5b5b;}
+.home p{color: #000;}
+.home div h1{width: 50%;
+margin-top: 16%;
+float: left;
 }
+.fa{font-size: 20px;margin-right: 10px;color: #2594d3}
+.nav-item a{color: #196ac4;}
+.navbar-nav > li > a{padding-bottom: 0;font-size: 16px;}
+.nav > li > a:focus, .nav > li > a:hover{background-color: transparent;}
+.home {padding-top: 6%;}
+#callbackForm{background-color: #2594d3;padding:10px 26px;}
+.form-control{height: 44px;border-radius: 0;}
+#callbackForm h3{color: #fff;margin-bottom: 25px;text-align: center;}
+.checkbox label{color: #fff;margin-bottom: 25px;}
+.form-group button{background-color: #81d742;border-radius: 0;color: #000;width: 40%;left: 30%;position: relative;}
 
-.bannerimg {
-    float: right;
-    max-width: 573px;
-    width: 100%;
-}
-h1.mainhead {
-    position: absolute;
-    width: 340px;
-    top: 80px;
-    text-transform: uppercase;
-    font-size: 30px;
-    color: #3f3a3a;
-}
-h1.mainhead span, .Cityrap span {
-    font-weight: 700;
-    color: #739b1e;
-}
-
-#callbackForm{padding: 30px;
-background-color:#739b1e;}
-#callbackForm h2{margin-bottom: 30px;}
-#menu{border-bottom: 1px solid grey;padding-top: 20px;padding-bottom: 20px;}
-.navbar-brand{width: 45%;padding: 15px 0px;}
-#formtext{margin-top: 15px;}
-#yChoose h2{text-align: center;}
-#yChoose .col-sm-4{margin-top: 35px;border-bottom: 1px solid grey;border-right: 1px solid grey;}
-#yChoose{background-color: #d3f7b9;}
-.icon{width: 100px;height: 100px;float: left;}
-.icon{border-radius: 50%;background-color: #fff;border: 4px solid #739b1e;text-align: center;} 
-.icon .fa{font-size: 48px;color:#739b1e;position: relative;bottom: -18px;right: -4px; }
+#AboutHs{ background-color: #f6f7f8;padding-top: 25px; padding-bottom: 50px;}
+#AboutHs h3{text-align: center;font-weight: 600;margin-bottom: 25px;color: #2594d3;}
+#specialityTreatment h3{text-align: center;font-weight: 600;margin-bottom: 12px;color: #81d742;}
+#AboutHs h4{text-align: center;color: #2594d3;font-weight: 600;color: #fff;margin-bottom: 20px;}
+.process p > i{text-align: center; font-size: 48px;color: #fff;}
+.process >p{text-align: center;color: #fff;}
+.process{padding-top: 30px;height: 400px;}
+.process img{width: 75px;}
+#AboutHs .container > div > div:nth-child(2){background-color: #196ac4;}
+#AboutHs .container > div > div:nth-child(3){background-color: #2594d3;}
+#AboutHs .container > div > div:nth-child(4){background-color: #31b2fc;}
+.treatment img{width: 95px;position: relative;left: 36%;}
+#specialityTreatment{padding-top: 25px;padding-bottom: 50px;}
+#specialityTreatment h3{text-align: center;}
+#specialityTreatment h4{color:#5b5b5b;text-align: center;margin-bottom: 32px;}
+#specialityTreatment .treatment h4{text-align: center;color: #fff;margin-bottom: 0px;}
+#text-carousel h3{text-align: center;color:#2594d3;font-weight: 600;}
+#text-carousel{margin-top: 30px;}
+#exTab1{margin-top: 90px;}
 .carousel-content {
-    color:black;
-    align-items:center;
+    height: 90px;
 }
+#footer{background-color: #151515;padding: 10px;}
+#footer p{color: #fff;text-align: center;margin-top: 8px;}
+.nav-pills{position: relative;
+margin: 0 auto;
+width: 17%;}
+.nav-pills > li > a{border-radius: 0;}
 
-#text-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
-}
-.carousel-indicators li{background-color: #739b1e;border: 1px solid #000;border-radius: 0;}
-#success h2{text-align: center;margin-bottom: 45px;}
-#exTab1 .tab-content {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
-}
-#exTab1 .nav-pills > li > a {
-  border-radius: 0;
-}
+.tab-content{border:1px solid #2594d3;}
+#specialityTreatment .container > div:nth-child(2){background-color: #8edc57;}
+#specialityTreatment .container > div:nth-child(3){background-color: #81d742;}
+#specialityTreatment .container > div:nth-child(4){background-color: #88e545;}
+#specialityTreatment .container > div:nth-child(5){background-color: #46cb4b;}
+#specialityTreatment .container > div:nth-child(6){background-color: #37ab3b;}
+#specialityTreatment .container > div:nth-child(7){background-color: #3dc042;}
+.treatment{padding: 20px;}
 
-#exTab1 .tab-content {
-    color: white;
-    background-color: #81d742;
-    padding: 2px 2px;
+#contentSlider{background-color: #f6f7f8;padding-bottom: 50px;}
+
+#exTab1 .nav > li > a, .nav > li > a:hover{
+    background-color: #eee;
+    color: #000;
 }
+#exTab1  .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{background-color: #2594d3;}
+
+.carousel-indicators {
+    bottom: -46%;
+}
+.carousel-indicators li{border: 1px solid #2594d3;}
+.carousel-indicators .active{background-color:#2594d3; }
+.carousel-content h4{text-align:center;color:#2594d3; }
+
+.nav-item img{width: 36px;margin-right: 14px;}
+.navbar-nav > li > a {
+    padding-top: 7px;}
+#exTab1{position: relative;}
+.tab-pane > div{position: absolute;
+left: 26px;
+width: 355px;
+height: 120px;
+top: 52px;
+background-color: #2594d3;
+padding: 15px;
+color: #000;}
